@@ -16,7 +16,7 @@ type errormsg struct {
 
 type AccessTokenRsp struct {
 	Access_token string
-	Expires_in   string
+	Expires_in   int
 	Remind_in    string
 	Uid          string
 	errormsg
